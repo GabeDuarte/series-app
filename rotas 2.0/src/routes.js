@@ -8,7 +8,6 @@ import Home from "./Home";
 import Info from "./info";
 import Series from "./series";
 import Adicionar from "./adicionar";
-import Sobre from "./adicionar";
 
 const Routes = () => {
    return(
