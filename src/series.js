@@ -3,18 +3,18 @@ import "./inicio.css";
 import { Link } from "react-router-dom";
 
 
-function magica(){
-  var $element = document.getElementById('editando')
+// function magica(){
+//   var $element = document.getElementById('editando')
 
-  if ($element.hasAttribute('ativo')){
-      $element.removeAttribute('ativo')
-      $element.style.display='none';
-  }
-  else{
-    $element.setAttribute('ativo', 'true')
-    $element.style.display='block'
-  }
-}
+//   if ($element.hasAttribute('ativo')){
+//       $element.removeAttribute('ativo')
+//       $element.style.display='none';
+//   }
+//   else{
+//     $element.setAttribute('ativo', 'true')
+//     $element.style.display='block'
+//   }
+// }
 
 
 export default class Series extends React.Component {
@@ -170,7 +170,8 @@ export default class Series extends React.Component {
 
 
   render(){
-    const {series, idSerie,  nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
+    const {series,} = this.state;
+    // const {series, idSerie,  nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
     return (
     <html>
       <body>
