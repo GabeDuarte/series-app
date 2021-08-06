@@ -3,7 +3,6 @@
 //O componente Link possui duas tags: uma de abertura e uma de fechamento. Entre as duas tags (abertura e fechamento) será inserido o conteúdo que ficará disponível para ser clicado.
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import App from './inicio'
 import './inicio.css'
 

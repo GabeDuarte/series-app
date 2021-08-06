@@ -108,7 +108,7 @@ export default class Series extends React.Component {
 
 
   render(){
-    const {series, idSerie,  nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
+
     return (
     <html>
 

@@ -140,7 +140,6 @@ export default class App extends React.Component {
   };
 
   render(){
-    const {series, nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
     return (
     <html> 
       <body>

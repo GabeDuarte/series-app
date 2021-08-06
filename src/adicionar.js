@@ -1,5 +1,4 @@
 import React from "react";
-import Popup from "./components";
 import "./inicio.css";
 import { Link } from "react-router-dom";
 
@@ -160,7 +159,7 @@ export default class Adicionar extends React.Component {
 
 
   render(){
-    const {series, idSerie,  nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
+    const {series,  nomeSerie, imagem_urlSerie, ano_lancamentoSerie, qtd_tempSerie, editando, indexEditando} = this.state;
     return (
     <html>
       <body>
